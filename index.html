@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4f46e5">
+    <title>PocketStore</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- App Shell: estructura fija que se carga al instante desde la caché -->
+    <header class="app-header">
+        <h1>PocketStore</h1>
+        <span id="status" class="status">Online</span>
+    </header>
+
+    <main id="user-list" class="catalog">
+        <p class="loading">Cargando...</p>
+    </main>
+
+    <footer class="app-footer">
+        <p>PocketStore &copy; 2026 · PWA con Vanilla JS</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
